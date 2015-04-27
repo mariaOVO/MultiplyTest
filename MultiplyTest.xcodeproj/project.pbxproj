@@ -14,6 +14,7 @@
 		517855971AEDD7CD0094F798 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517855961AEDD7CD0094F798 /* Images.xcassets */; };
 		5178559A1AEDD7CD0094F798 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517855981AEDD7CD0094F798 /* LaunchScreen.xib */; };
 		517855A61AEDD7CD0094F798 /* MultiplyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517855A51AEDD7CD0094F798 /* MultiplyTestTests.m */; };
+		517855B11AEDDFF20094F798 /* MultiplyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 517855B01AEDDFF20094F798 /* MultiplyObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5178559F1AEDD7CD0094F798 /* MultiplyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		517855A41AEDD7CD0094F798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		517855A51AEDD7CD0094F798 /* MultiplyTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyTestTests.m; sourceTree = "<group>"; };
+		517855AF1AEDDFF20094F798 /* MultiplyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplyObject.h; sourceTree = "<group>"; };
+		517855B01AEDDFF20094F798 /* MultiplyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				517855961AEDD7CD0094F798 /* Images.xcassets */,
 				517855981AEDD7CD0094F798 /* LaunchScreen.xib */,
 				517855891AEDD7CD0094F798 /* Supporting Files */,
+				517855AF1AEDDFF20094F798 /* MultiplyObject.h */,
+				517855B01AEDDFF20094F798 /* MultiplyObject.m */,
 			);
 			path = MultiplyTest;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			files = (
 				517855921AEDD7CD0094F798 /* ViewController.m in Sources */,
 				5178558F1AEDD7CD0094F798 /* AppDelegate.m in Sources */,
+				517855B11AEDDFF20094F798 /* MultiplyObject.m in Sources */,
 				5178558C1AEDD7CD0094F798 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
